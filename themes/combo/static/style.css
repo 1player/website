@@ -1,0 +1,195 @@
+@import 'normalize.css';
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+body {
+  background-color: #fff;
+}
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 200px;
+  height: 100%;
+  padding: 20px;
+  background-color: #111111;
+  color: #af98d6;
+}
+@media (max-width: 900px) {
+  header {
+    width: 100%;
+    position: static;
+    height: 80px;
+    padding: 0 8px;
+    overflow: hidden;
+  }
+}
+header a {
+  color: #af98d6;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+header .logo {
+  display: block;
+  text-align: center;
+}
+@media (max-width: 900px) {
+  header .logo {
+    text-align: left;
+    float: left;
+  }
+}
+header .logo img {
+  width: auto;
+}
+@media (max-width: 900px) {
+  header .logo img {
+    width: 50%;
+  }
+}
+header nav {
+  text-align: center;
+  display: block;
+  margin-top: 2rem;
+}
+@media (max-width: 900px) {
+  header nav {
+    float: right;
+    height: 100%;
+    margin-top: 0;
+  }
+}
+header nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+header nav ul a:hover {
+  color: #fff;
+}
+div.wrapper {
+  margin-left: 200px;
+}
+@media (max-width: 900px) {
+  div.wrapper {
+    margin-left: 0;
+  }
+}
+div.wrapper .content {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 24px;
+}
+.body-intro {
+  background-color: #111111;
+  color: #af98d6;
+}
+.intro {
+  font-size: 3rem;
+  line-height: 1.5em;
+}
+h1,
+h2,
+h3,
+h4 {
+  font-family: "nimbus-sans-condensed", sans-serif;
+  margin-bottom: 1rem;
+  color: #482e74;
+}
+h1 {
+  font-size: 2.5rem;
+  margin-top: 0;
+}
+h2 {
+  border-top: 3px solid #9373c8;
+  padding-top: 0.5rem;
+  margin: 1.8rem 0 1rem 0;
+  font-size: 1.5rem;
+}
+html,
+body {
+  font-family: "source-sans-pro", sans-serif;
+  color: #333;
+  line-height: 1.5em;
+  text-rendering: optimizeLegibility;
+  font-size: 18px;
+}
+a {
+  color: #f20079;
+}
+ul {
+  padding-left: 1.2rem;
+}
+ul li {
+  margin-bottom: 0.5rem;
+}
+i {
+  font-size: 1.1rem;
+  font-style: normal;
+  font-feature-settings: "smcp", "c2sc", "kern";
+  -webkit-font-feature-settings: "smcp", "c2sc", "kern";
+}
+table {
+  width: 100%;
+  margin-bottom: 2rem;
+}
+table th {
+  text-align: left;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  color: #482e74;
+}
+table td,
+table th.border {
+  border-top: 1px solid #ddd;
+}
+table th,
+table td {
+  padding: 0.5rem;
+}
+.resume-header {
+  text-align: center;
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+.resume-name {
+  font-weight: bold;
+}
+.resume-address {
+  font-size: smaller;
+}
+.resume-mail {
+  margin-top: 0.5rem;
+  color: #666;
+}
+.resume-experience {
+  clear: both;
+}
+.resume-experience-title {
+  clear: both;
+  font-weight: bold;
+  float: left;
+  color: #444;
+}
+.resume-experience-employer {
+  float: right;
+}
+.resume-experience-date {
+  font-size: 0.9rem;
+  color: #666;
+}
+.resume-experience-summary {
+  margin-top: 2.5rem;
+  clear: both;
+  content: " ";
+  margin-bottom: 2.5rem;
+}
+.resume-experience-summary p {
+  text-indent: 1rem;
+}

@@ -1,0 +1,67 @@
+h1, h2, h3, h4 {
+	font-family: "nimbus-sans-condensed", sans-serif;
+	//font-variant: small-caps;
+	//font-feature-settings: "smcp", "c2sc";
+	//-webkit-font-feature-settings: "smcp", "c2sc";
+	margin-bottom: 1rem;
+	color: @violet;
+}
+
+h1 {
+	font-size: 2.5rem;
+	margin-top: 0;
+}
+
+h2 {
+	border-top: 3px solid lighten(@violet, 30%);
+	padding-top: 0.5rem;
+	margin: 1.8rem 0 1rem 0;
+	font-size: 1.5rem;
+}
+
+html, body {
+	font-family: "source-sans-pro", sans-serif;
+	color: #333;
+	line-height: 1.5em;
+	text-rendering: optimizeLegibility;
+	font-size: 18px;
+}
+
+a {
+	color: @red;
+}
+
+ul {
+	padding-left: 1.2rem;
+	li {
+		margin-bottom: 0.5rem;
+	}
+}
+
+i {
+	font-size: 1.1rem;
+	//letter-spacing: 0.08em;
+	//font-variant: small-caps;
+	font-style: normal;
+	font-feature-settings: "smcp", "c2sc", "kern";
+	-webkit-font-feature-settings: "smcp", "c2sc", "kern";
+}
+
+table {
+	width: 100%;
+	margin-bottom: 2rem;
+	th {
+		text-align: left;
+		font-size: 0.8rem;
+		text-transform: uppercase;
+		color: @violet;
+	}
+
+	td, th.border {
+		border-top: 1px solid #ddd;
+	}
+
+	th, td {
+		padding: 0.5rem;
+	}
+}
