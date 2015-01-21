@@ -24,7 +24,7 @@ header {
   header {
     width: 100%;
     position: static;
-    height: 80px;
+    height: 50px;
     padding: 0 8px;
     overflow: hidden;
   }
@@ -50,7 +50,15 @@ header .logo img {
 }
 @media (max-width: 900px) {
   header .logo img {
-    width: 50%;
+    height: 50px;
+  }
+}
+header .logo a {
+  display: block;
+}
+@media (max-width: 900px) {
+  header .logo a {
+    height: 50px;
   }
 }
 header nav {
@@ -63,6 +71,7 @@ header nav {
     float: right;
     height: 100%;
     margin-top: 0;
+    line-height: 50px;
   }
 }
 header nav ul {

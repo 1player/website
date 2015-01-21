@@ -40,7 +40,7 @@ header {
 	@media (max-width: @break) {
 		width: 100%;
 		position: static;
-		height: 80px;
+		height: 50px;
 		padding: 0 8px;
 		overflow: hidden;
 	}
@@ -69,7 +69,14 @@ header {
 		img { 
 			width: auto; 
 			@media (max-width: @break) {
-				width: 50%;
+				height: 50px;
+			}
+		}
+
+		a {
+			display: block;
+			@media (max-width: @break) {
+				height: 50px;
 			}
 		}
 	}
@@ -83,6 +90,7 @@ header {
 			float: right;
 			height: 100%;
 			margin-top: 0;
+			line-height: 50px;
 		}
 
 		ul {
