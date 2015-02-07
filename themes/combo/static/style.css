@@ -29,6 +29,11 @@ header {
     overflow: hidden;
   }
 }
+@media print {
+  header {
+    display: none;
+  }
+}
 header a {
   color: #af98d6;
   text-decoration: none;
@@ -103,12 +108,17 @@ div.wrapper .content {
   font-size: 3rem;
   line-height: 1.5em;
 }
+@media (max-width: 500px) {
+  .intro {
+    font-size: 2rem;
+  }
+}
 h1,
 h2,
 h3,
 h4 {
   font-family: "nimbus-sans-condensed", sans-serif;
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
   color: #482e74;
 }
 h1 {
@@ -128,6 +138,18 @@ body {
   line-height: 1.5em;
   text-rendering: optimizeLegibility;
   font-size: 18px;
+}
+@media (max-width: 500px) {
+  html,
+  body {
+    font-size: 14px;
+  }
+}
+@media (min-width: 1150px) {
+  html,
+  body {
+    font-size: 20px;
+  }
 }
 a {
   color: #f20079;
@@ -162,10 +184,21 @@ table th,
 table td {
   padding: 0.5rem;
 }
+@media print {
+  li {
+    page-break-inside: avoid;
+  }
+  .noprint {
+    display: none;
+  }
+}
 .resume-header {
   text-align: center;
   font-size: 1.5rem;
   line-height: 2rem;
+}
+.resume-experience-header {
+  overflow: hidden;
 }
 .resume-name {
   font-weight: bold;
@@ -179,6 +212,7 @@ table td {
 }
 .resume-experience {
   clear: both;
+  page-break-inside: avoid;
 }
 .resume-experience-title {
   clear: both;
@@ -188,17 +222,44 @@ table td {
 }
 .resume-experience-employer {
   float: right;
+  width: 50%;
+  text-align: right;
+  font-size: 0.9rem;
 }
 .resume-experience-date {
+  float: left;
+  width: 50%;
   font-size: 0.9rem;
   color: #666;
 }
 .resume-experience-summary {
-  margin-top: 2.5rem;
-  clear: both;
   content: " ";
-  margin-bottom: 2.5rem;
+  margin-bottom: 1.5rem;
 }
 .resume-experience-summary p {
-  text-indent: 1rem;
+  text-indent: 10px;
+}
+.resume-experience-stack {
+  font-size: 0.8rem;
+  list-style-type: none;
+  font-style: italic;
+  padding: 0;
+  margin: 0 0 0 10px;
+  line-height: 1.2rem;
+}
+.resume-experience-stack:before {
+  content: "Tech stack: ";
+}
+.resume-experience-stack li {
+  display: inline-block;
+  margin-bottom: 0;
+}
+.resume-experience-stack li:after {
+  content: ", ";
+}
+.resume-experience-stack li:last-child:after {
+  content: "";
+}
+.resume-languages {
+  page-break-before: always;
 }

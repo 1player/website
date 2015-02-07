@@ -4,6 +4,7 @@
         <meta name="date" content="2015-01-14 18:15:00" />
         <meta name="modified" content="2015-01-15 18:43:00" />
         <meta name="authors" content="Stéphane Travostino" />
+        <meta name="hidetitleinprint" content="true" />
     </head>
     <body>
         <article class="resume">
@@ -21,14 +22,15 @@
             </div>
 
             <div class="resume-tech">
-                <h2>Technical Knowledge</h2>
+                <h2>Technical Expertise</h2>
                 <ul>
                     <li>Fluent in C, Google Go and Python (2 and 3) development under POSIX compliant systems, mainly Linux and Solaris</li>
                     <li>In-depth knowledge of GNU/Linux operating systems, specifically RHEL, CentOS, Debian/Ubuntu and Archlinux distributions.</li>
-                    <li>AngularJS</li>
-                    <li>Extensive experience in maintenance and tuning of MySQL version 4.0 to 5.5 systems, master/slave and circular replications and backup techniques.</li>
-                    <li>Experience with Ruby and Scheme/Racket scripting.</li>
-                    <li>Distributed systems technologies such as Celery and ZeroMQ</li>
+                    <li>Web development with AngularJS, jQuery and ReactJS</li>
+                    <li>Maintenance and tuning of MySQL version 4.0 to 5.5 systems, master/slave and circular replications and backup techniques.</li>
+                    <li>Experience with Bash, Ruby and Scheme/Racket scripting.</li>
+                    <li>Distributed systems technologies such as Celery and ZeroMQ.</li>
+                    <li>Redis, MongoDB and PostgreSQL database systems.</li>
                     <li>Reverse engineering and penetration testing techniques, in Linux and Windows environments.</li>
                     <li>Excellent networking knowledge and iptables based configurations on Linux systems.</li>
                     <li>RedHat, Heartbeat/DRBD and Symantec Cluster Server high-availability suites.</li>
@@ -39,117 +41,255 @@
                 <h2>Experience</h2>
 
                 <div class="resume-experience">
-                    <div class="resume-experience-date">September 2014 &ndash; Present</div>
-                    <div class="resume-experience-title">MySQL DBA and PHP backend developer</div>
-                    <div class="resume-experience-employer">
-                        <a href="http://www.precipicelabs.com/">Precipice Labs, Inc.</a>
+                    <div class="resume-experience-header">
+                        <div class="resume-experience-date">Sept. 2014 &ndash; Present</div>
+                        <div class="resume-experience-employer">
+                            <a href="http://www.precipicelabs.com/">Precipice Labs</a>
+                        </div>
+                        <div class="resume-experience-title">MySQL DBA and PHP backend developer</div>
+                        
                     </div>
                     
                     <div class="resume-experience-summary">
-                        MySQL DBA in charge of performance tuning and designing a scalable schema to support thousands concurrent users.
+                        <p>
+                        MySQL DBA in charge of performance tuning and adapting the current schema to support millions of users and thousand concurrent connections.
+                        </p>
+                        <p>
+                        Backend PHP engineer developing new features while refactoring the existing code base, implementing unit tests and setting up a coding standard for future developers.
+                        </p>
+                        <ul class="resume-experience-stack">
+                            <li>PHP5</li>
+                            <li>MySQL</li>
+                            <li>In-house framework</li>
+                        </ul>
                     </div>
                 </div>
 
                 <div class="resume-experience">
-                    <div class="resume-experience-date">August 2014 &ndash; Present</div>
-                    <div class="resume-experience-title">Embedded C developer</div>
-                    <div class="resume-experience-employer">
-                        <a href="http://www.kocoverk.com/">Kocoverk Mobile Tech Ltd</a>
+                    <div class="resume-experience-header">
+                        <div class="resume-experience-date">Aug. 2014 &ndash; Present</div>
+                        <div class="resume-experience-employer">
+                            <a href="http://www.kocoverk.com/">Kocoverk Mobile Tech</a>
+                        </div>
+                        <div class="resume-experience-title">Embedded C developer</div>
                     </div>
                     <div class="resume-experience-summary">
+                        <p>
                         Maintenance of a C protocol translation application interfaced with multiple hardware devices via UDP protocol. Keeps track of devices metadata and sends relevant state changes to a PHP backend.
-                    </div>
-                </div>
-
-                <div class="resume-experience">
-                    <div class="resume-experience-date">July 2014 &ndash; Present</div>
-                    <div class="resume-experience-title">Django web developer</div>
-                    <div class="resume-experience-employer">
-                        <a href="http://www.emmegi-heat-exchangers.com/">EMMEGI S.p.A.</a>
-                    </div>
-                    
-                    <div class="resume-experience-summary">TODO</div>
-                </div>
-
-                <div class="resume-experience">
-                    <div class="resume-experience-date">September 2013 &ndash; May 2014</div>
-                    <div class="resume-experience-title">PHP web developer and Linux systems administrator</div>
-                    <div class="resume-experience-employer">
-                        <a href="http://www.gensoft.it/">General Software S.r.l.</a>
-                    </div>
-                    
-                    <div class="resume-experience-summary">
-                        <p>
-                        TODO
                         </p>
+                        <ul class="resume-experience-stack">
+                            <li>GNU C</li>
+                            <li>Event-based UDP server</li>
+                            <li>MySQL</li>
+                            <li>PHP5</li>
+                        </ul>
                     </div>
                 </div>
 
                 <div class="resume-experience">
-                    <div class="resume-experience-date">March 2012 &ndash; September 2014</div>
-                    <div class="resume-experience-title">Embedded / full stack C and Python developer</div>
-                    <div class="resume-experience-employer">
-                        <a href="http://www.silverspringnet.com/">Silver Spring Networks</a>
+                    <div class="resume-experience-header">
+                        <div class="resume-experience-date">July 2014 &ndash; Present</div>
+                        <div class="resume-experience-employer">
+                            <a href="http://www.emmegi-heat-exchangers.com/">EMMEGI S.p.A.</a>
+                        </div>
+                        <div class="resume-experience-title">Django web developer</div>
+                        
                     </div>
                     
                     <div class="resume-experience-summary">
                         <p>
-                        Design and development of a multi-platform C library for third parties to embed in their products the upcoming ZigBee Smart Energy standard, which enable interoperable products to monitor, control, inform and automate the delivery and use of energy and water.
+                            Web design and backend development of a web application for clients and agents to find the heat exchanger configuration that best satisfies their requirements.
                         </p>
                         <p>
-                        Design and development of a Django web interface to aggregate and coordinate geographically distributed hardware appliances. Powered by PostgreSQL, Redis, Celery and shipped on RHEL systems.
+                            By entering the heat dissipation factors, a list of product best matching the parameters are returned, with interactive power dissipation charts and the ability to generate a PDF with all the technical information for further reference.
                         </p>
+                        <p>
+                            The software is installed on a Linux VPS server, with automated backups and real-time monitoring.
+                        </p>
+                        <ul class="resume-experience-stack">
+                            <li>Django 1.7</li>
+                            <li>PostgreSQL</li>
+                            <li>matplotlib</li>
+                            <li>reportlab</li>
+                            <li>ImageMagick</li>
+                            <li>jQuery</li>
+                            <li>flot.js charts</li>
+                            <li>I18N</li>
+                            <li>Ubuntu VPS</li>
+                            <li>git</li>
+                        </ul>
                     </div>
                 </div>
 
                 <div class="resume-experience">
-                    <div class="resume-experience-date">March 2012 &ndash; March 2013</div>
-                    <div class="resume-experience-title">Backend Go developer</div>
-                    <div class="resume-experience-employer">
-                        <a href="http://www.mp3skip.eu/">mp3skip.eu</a>
+                    <div class="resume-experience-header">
+                        <div class="resume-experience-date">May 2014 &ndash; Sept. 2014</div>
+                        <div class="resume-experience-employer">
+                            <a href="#">MobileCherry</a>
+                        </div>
+                        <div class="resume-experience-title">AWS systems administrator</div>
+                    </div>
+                    <div class="resume-experience-summary">
+                        <p>
+                            Deployment and maintenance of an Ansible-powered scalable AWS server infrastructure to host git repositories.
+                        </p>
+                        <p>
+                            The project, with a similar scope to GitHub, is based on NodeJS, MongoDB, haproxy, nginx, GlusterFS for scalable repository storage and a custom patched OpenSSH to authenticate and fetch user permissions from database.
+                        </p>
+                        <ul class="resume-experience-stack">
+                            <li>AWS</li>
+                            <li>Ansible</li>
+                            <li>Fabric</li>
+                            <li>OpenSSH</li>
+                            <li>MongoDB</li>
+                            <li>haproxy</li>
+                            <li>nginx</li>
+                            <li>GlusterFS</li>
+                            <li>NodeJS</li>
+                            <li>git</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="resume-experience">
+                    <div class="resume-experience-header">
+                        <div class="resume-experience-date">Sept. 2013 &ndash; May 2014</div>
+                        <div class="resume-experience-employer">
+                            <a href="http://www.gensoft.it/">General Software S.r.l.</a>
+                        </div>
+                        <div class="resume-experience-title">PHP web developer and Linux systems administrator</div>
+                    </div>
+                    <div class="resume-experience-summary">
+                        <p>
+                            Web design and development of a single-page Laravel+AngularJS dashboard interfaced with the in-house monitoring system inspired by Nagios and BB4.
+                        </p>
+                        <p>
+                            Features include real-time updates through HTML5 Server-Sent events, reporting, log monitoring and configuration, customly tailored for non-technical users.
+                        </p>
+                        <ul class="resume-experience-stack">
+                            <li>PHP5</li>
+                            <li>Laravel framework</li>
+                            <li>MySQL</li>
+                            <li>AngularJS</li>
+                            <li>Mercurial</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="resume-experience">
+                    <div class="resume-experience-header">
+                        <div class="resume-experience-date">March 2012 &ndash; Sept. 2014</div>
+                        <div class="resume-experience-employer">
+                            <a href="http://www.silverspringnet.com/">Silver Spring Networks</a>
+                        </div>
+                        <div class="resume-experience-title">Embedded / full stack C and Python developer</div>
                     </div>
                     
                     <div class="resume-experience-summary">
                         <p>
-                        Development of a multithreaded Go crawler to download, parse and save to database the frequency, bitrate, album art and ID3 tags of MP3 files hosted on third party servers.<br>
-                        Its finely-tuned design permits to process a hundreds of files per minute while using very small bandwidth and system resources.
+                            Design and development of a Django web interface to aggregate and coordinate geographically distributed hardware appliances, powered by the upcoming ZigBee Smart Energy standard to monitor, control, inform and automate the delivery and use of solar power generators.
                         </p>
+                        <p>
+                            Single-page web application based on AngularJS to enable technicians to configure and keep track of the solar generators installed throughout the United States. The bidirectional data flow, based on XML, is collected by background Celery processes, stored on a PostgreSQL database and presented in real-time on the dashboard.
+                        </p>
+                        <ul class="resume-experience-stack">
+                            <li>ZigBee SEP2</li>
+                            <li>Django 1.6</li>
+                            <li>Django REST Framework</li>
+                            <li>PostgreSQL</li>
+                            <li>Celery</li>
+                            <li>Redis</li>
+                            <li>AngularJS</li>
+                            <li>flot.js charts</li>
+                            <li>RHEL/CentOS</li>
+                            <li>RPM</li>
+                            <li>git</li>
+                        </ul>
                     </div>
                 </div>
 
                 <div class="resume-experience">
-                    <div class="resume-experience-date">July 2008 - September 2011</div>
-                    <div class="resume-experience-title">MySQL DBA and Linux systems administrator</div>
-                    <div class="resume-experience-employer">
-                        <a href="http://www.buongiorno.com/">Buongiorno S.p.A.</a>
+                    <div class="resume-experience-header">
+                        <div class="resume-experience-date">March 2012 &ndash; March 2013</div>
+                        <div class="resume-experience-employer">
+                            <a href="http://www.mp3skip.eu/">mp3skip.eu</a>
+                        </div>
+                        <div class="resume-experience-title">Backend Go developer</div>
                     </div>
                     
                     <div class="resume-experience-summary">
                         <p>
-                        Installation, configuration and performance tuning of about 150 MySQL instances on 50 RHEL5 servers, processing an average of 3500 queries per second.
+                            Development of a multithreaded Go crawler to download, parse and save to database the frequency, bitrate, album art and ID3 tags of MP3 files hosted on third party servers.
                         </p>
                         <p>
-                        Lead architect of a Python web interface to manage the MySQL instances through a single server
+                            Thanks to its finely-tuned design, the application processes hundreds of files per minute while using very small bandwidth and system resources.
                         </p>
-                        <p>
-                        Design and implementation of a company-wide OpenLDAP solution, automatically replicated from the corporate Active Directory infrastructure, to provide granular access to the IT resources to about 1200 employees
-                        </p>
+                        <ul class="resume-experience-stack">
+                            <li>Go</li>
+                            <li>Web scraping</li>
+                        </ul>
                     </div>
                 </div>
 
                 <div class="resume-experience">
-                    <div class="resume-experience-date">January 2007 &ndash; July 2008</div>
-                    <div class="resume-experience-title">Systems Engineer</div>
-                    <div class="resume-experience-employer">
-                        <a href="http://www.gensoft.it/">General Software S.r.l.</a>
+                    <div class="resume-experience-header">
+                        <div class="resume-experience-date">July 2008 &ndash; Sept. 2011</div>
+                        <div class="resume-experience-employer">
+                            <a href="http://www.buongiorno.com/">Buongiorno S.p.A.</a>
+                        </div>
+                        <div class="resume-experience-title">MySQL DBA and Linux systems administrator</div>
+                    </div>
+                    
+                    <div class="resume-experience-summary">
+                        <p>
+                            Installation, configuration and performance tuning of about 150 MySQL instances on 50 RHEL5 servers, processing an average of 3500 queries per second.
+                        </p>
+                        <p>
+                            Lead architect of a Python+Flask web interface to manage the MySQL instances through a single server, to ease the daily workload of the database administrator by automating the management of user credentials, creation and deletions of reporting tables and presenting at a glance the status of the whole infrastructure.
+                        </p>
+                        <p>
+                            Design and implementation of a company-wide OpenLDAP solution, automatically replicated from the corporate Active Directory infrastructure, to provide granular access to the IT resources to about 1200 employees
+                        </p>
+                        <ul class="resume-experience-stack">
+                            <li>MySQL</li>
+                            <li>Bacula</li>
+                            <li>Python</li>
+                            <li>Flask</li>
+                            <li>RHEL/CentOS</li>
+                            <li>Nagios</li>
+                            <li>OpenLDAP</li>
+                            <li>Red Hat Cluster Suite</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="resume-experience">
+                    <div class="resume-experience-header">
+                        <div class="resume-experience-date">Jan. 2007 &ndash; July 2008</div>
+                        <div class="resume-experience-employer">
+                            <a href="http://www.gensoft.it/">General Software S.r.l.</a>
+                        </div>
+                        <div class="resume-experience-title">Systems Engineer</div>
                     </div>
                     
                     <div class="resume-experience-summary">
                         <p>
                         Design and ground-up development of GsView, an IT infrastructure monitoring system for Linux and Solaris inspired by Nagios and BB4.
-
-Various Linux and Solaris system administration tasks for more than 10 different customers.
                         </p>
+                        <p>
+                        Various Linux and Solaris system administration tasks for more than 10 different customers.
+                        </p>
+                        <ul class="resume-experience-stack">
+                            <li>GNU C</li>
+                            <li>MySQL</li>
+                            <li>Nagios</li>
+                            <li>Symantec Veritas Cluster</li>
+                            <li>RHEL</li>
+                            <li>Ubuntu</li>
+                            <li>Embedded Linux</li>
+                            <li>Solaris</li>
+                            <li>PHP5</li>
+                        </ul>
                     </div>
                 </div>
             </div>
@@ -194,14 +334,14 @@ Various Linux and Solaris system administration tasks for more than 10 different
                 <ul>
                     <li>Learned programming and English playing with QBASIC and Turbo C on a MSDOS 80386 system, later moved on to Visual Basic 6, Visual C++ 6 and C#</li>
 
-                    <li>Coded from scratch Klesh, a minimal operating system with multithreading support. Basic init process loaded from Ext2 filesystem</li>
+                    <li>Coded from scratch Klesh, a minimal operating system with multithreading support. Basic init process loaded from Ext2 filesystem.</li>
 
                     <li>Participated and completed two out of three of the Stripe CTF hacking competitions: <a href="https://stripe.com/blog/capture-the-flag">system exploitation</a> and <a href="https://stripe.com/blog/capture-the-flag-20">web application attacks</a>.  T-shirts available as proof.</li>
 
-                    <li>Been playing the bass guitar for 10 years</li>
+                    <li>Been playing the bass guitar for 10 years.</li>
                 </ul>
             </div>
 
-            <p>References available upon request.</p>
+            <p>References available on my <a href="http://uk.linkedin.com/pub/st%C3%A9phane-travostino/10/685/135">LinkedIn</a> page.</p>
     </body>
 </html>

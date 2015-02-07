@@ -15,6 +15,8 @@
 
 @baseFontSize: 16px;
 
+@smBreak: 500px;
+@lgBreak: 1150px;
 @break: 900px;
 
 html {
@@ -45,7 +47,9 @@ header {
 		overflow: hidden;
 	}
 
-	
+	@media print {
+		display: none;
+	}
 
 	background-color: @darkBgColor;
 	color: @darkFgColor;

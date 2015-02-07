@@ -3,7 +3,7 @@ h1, h2, h3, h4 {
 	//font-variant: small-caps;
 	//font-feature-settings: "smcp", "c2sc";
 	//-webkit-font-feature-settings: "smcp", "c2sc";
-	margin-bottom: 1rem;
+	margin-bottom: 2rem;
 	color: @violet;
 }
 
@@ -25,6 +25,14 @@ html, body {
 	line-height: 1.5em;
 	text-rendering: optimizeLegibility;
 	font-size: 18px;
+
+	@media (max-width: @smBreak) {
+		font-size: 14px;
+	}
+
+	@media (min-width: @lgBreak) {
+		font-size: 20px;
+	}
 }
 
 a {
