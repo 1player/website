@@ -1,9 +1,11 @@
 import os
-from fabric.api import local
+from fabric.api import *
 import livereload
 
 ROOT = os.path.dirname(os.path.abspath(__file__))
 OUTPUT = os.path.join(ROOT, 'output')
+
+env.hosts = ['combo.cc']
 
 def _makePelican():
 
@@ -35,3 +37,6 @@ def dev(port=8000):
     server.watch('*.html')
     server.watch('*.css')
     server.serve(liveport=35729, port=port)
+
+def push():
+    put('output/*', 'public_html/')
