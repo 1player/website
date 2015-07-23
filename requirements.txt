@@ -1,3 +1,5 @@
 Pelican==3.5.0
 Markdown==2.5.2
 typogrify==2.0.7
+Fabric==1.10.2
+livereload==2.4.0
