@@ -2,8 +2,8 @@
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
 
-AUTHOR = u'St\xe9phane Travostino'
-SITENAME = u'combo'
+AUTHOR = u'Stéphane Travostino'
+SITENAME = u'Stéphane Travostino'
 SITEURL = 'http://combo.cc'
 
 PATH = 'content'
@@ -24,10 +24,7 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 # Blogroll
-#LINKS = (('Pelican', 'http://getpelican.com/'),
-#         ('Python.org', 'http://python.org/'),
-#         ('Jinja2', 'http://jinja.pocoo.org/'),
-#         ('You can modify those links in your config file', '#'),)
+MENUITEMS = (('Github', 'https://github.com/1player'),)
 
 # Social widget
 #SOCIAL = (('You can add links in your config file', '#'),
