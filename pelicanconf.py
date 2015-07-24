@@ -27,7 +27,8 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 # Blogroll
-MENUITEMS = (('Github', 'https://github.com/1player'),)
+MENUITEMS = (('Github', 'https://github.com/1player'),
+             ('Linkedin', 'https://uk.linkedin.com/in/stravostino'),)
 
 # Social widget
 #SOCIAL = (('You can add links in your config file', '#'),
