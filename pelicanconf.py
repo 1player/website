@@ -7,6 +7,9 @@ SITENAME = u'Stéphane Travostino'
 SITEURL = 'http://combo.cc'
 
 PATH = 'content'
+ARTICLE_PATHS = ['articles']
+ARTICLE_SAVE_AS = 'articles/{slug}.html'
+ARTICLE_URL = 'articles/{slug}.html'
 
 TIMEZONE = 'Europe/London'
 
