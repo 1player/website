@@ -32,7 +32,7 @@ You'll find the patch at [https://gist.github.com/1player/fba5775fe0780af310a3](
 
 Also, make sure to create a help file for it, or the `luci` module for SQM won't be able to find it. Assuming you've called the new script `simple-bwlimit.qos`:
 
-    cp /usr/lib/sqm/simple.qos /usr/lib/sqm/simple-bwlimit.qos
+    cp /usr/lib/sqm/simple.qos.help /usr/lib/sqm/simple-bwlimit.qos.help
     # edit as needed
 
 This new QoS script creates a new class, with mark 4, with a maximum bandwidth of a 100th of the total upload bandwidth, as defined in the `$BL_RATE` variable, which in my case resolves to 50kbps.
@@ -78,7 +78,7 @@ This is what your iptables configuration should now look like:
 We're almost done, there's one last problem: the quota, represented by the "bytes" column, doesn't reset by itself.
 The easiest way to reset it is to add a new crontab rule:
 
-    0 * * * * iptables -t mangle -Z FORWARD 2
+    0 0 * * * iptables -t mangle -Z FORWARD 2
 
 The `iptables -t mangle -Z FORWARD 2` command will be executed every day at midnight, and reset the stats of the second rule, which in my case corresponds to the quota rule as listed from `iptables -t mangle -vL FORWARD`
 
