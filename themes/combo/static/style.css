@@ -78,6 +78,10 @@ header nav {
     margin-top: 0;
     line-height: 50px;
   }
+  header nav li {
+    float: left;
+    margin-left: 0.5rem;
+  }
 }
 header nav ul {
   list-style-type: none;
