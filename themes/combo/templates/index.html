@@ -5,4 +5,16 @@
     Hello, I'm Stéphane.<br>
     I solve problems.
 </div>
+
+<div class="intro-articles">
+    <h2>Articles</h2>
+    <ul class="article-list">
+    {% for article in articles_page.object_list %}
+        <li class="article-list-entry">
+            <a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a>
+            <div class="article-list-entry-date">{{ article.locale_date }}</div>
+        </li>
+    {% endfor %}
+    </ul>
+</div>
 {% endblock %}
