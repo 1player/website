@@ -107,11 +107,30 @@ div.wrapper .content {
 .intro {
   font-size: 3rem;
   line-height: 1.5em;
+  margin-bottom: 1em;
 }
 @media (max-width: 500px) {
   .intro {
     font-size: 2rem;
   }
+}
+.intro-articles h2 {
+  color: inherit;
+}
+.intro-articles ul {
+  padding: 0;
+  list-style: none;
+}
+.intro-articles .intro-article-date {
+  float: left;
+  width: 25%;
+  text-align: right;
+  font-size: .8rem;
+  color: #645283;
+}
+.intro-articles a {
+  display: block;
+  margin-left: 27%;
 }
 h1,
 h2,

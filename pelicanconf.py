@@ -12,6 +12,8 @@ TIMEZONE = 'Europe/London'
 
 DEFAULT_LANG = u'en'
 
+DEFAULT_DATE_FORMAT = '%B %d, %Y'
+
 THEME = 'themes/combo'
 
 # Feed generation is usually not desired when developing

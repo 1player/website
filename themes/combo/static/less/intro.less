@@ -6,8 +6,34 @@
 .intro {
 	font-size: 3rem;
 	line-height: 1.5em;
+    margin-bottom: 1em;
 
 	@media (max-width: @smBreak) {
 		font-size: 2rem;
 	}
+}
+
+
+.intro-articles {
+    h2 {
+        color: inherit;
+    }
+
+    ul {
+        padding: 0;
+        list-style: none;
+    }
+
+    .intro-article-date {
+        float: left;
+        width: 25%;
+        text-align: right;
+        font-size: .8rem;
+        color: darken(desaturate(@darkFgColor, 20%), 30%);
+    }
+
+    a {
+        display: block;
+        margin-left: 27%;
+    }
 }
