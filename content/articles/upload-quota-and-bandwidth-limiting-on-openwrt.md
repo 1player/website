@@ -82,4 +82,4 @@ The easiest way to reset it is to add a new crontab rule:
 
 The `iptables -t mangle -Z FORWARD 2` command will be executed every day at midnight, and reset the stats of the second rule, which in my case corresponds to the quota rule as listed from `iptables -t mangle -vL FORWARD`
 
-To test if it works, just set the mac-source to your PC and try to upload some data somewhere: after reaching the limit you should see your speed decreasing significantly.
+To test if it works, just set the mac-source to your PC's MAC and try to upload some data somewhere: after reaching the limit you should see your speed decreasing significantly.
