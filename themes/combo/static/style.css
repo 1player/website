@@ -38,7 +38,12 @@ header a {
   color: #af98d6;
   text-decoration: none;
   text-transform: uppercase;
-  font-weight: bold;
+  letter-spacing: 1.5px;
+}
+@media (max-width: 900px) {
+  header a {
+    letter-spacing: 0;
+  }
 }
 header .logo {
   display: block;
@@ -109,7 +114,7 @@ div.wrapper .content {
   color: #af98d6;
 }
 .intro {
-  font-size: 3rem;
+  font-size: 3.5rem;
   line-height: 1.5em;
   margin-bottom: 1em;
 }
@@ -130,6 +135,7 @@ div.wrapper .content {
   width: 25%;
   text-align: right;
   font-size: .8rem;
+  font-style: italic;
   color: #645283;
 }
 .intro-articles a {
@@ -145,21 +151,26 @@ h4 {
   color: #482e74;
 }
 h1 {
-  font-size: 2.5rem;
+  font-size: 3rem;
   margin-top: 0;
   line-height: 1em;
+  letter-spacing: -1.2px;
+}
+@media (max-width: 500px) {
+  h1 {
+    font-size: 2.5rem;
+  }
 }
 h2 {
-  border-top: 3px solid #9373c8;
   padding-top: 0.2rem;
-  margin: 1.8rem 0 1rem 0;
+  margin: 1.5rem 0 .5rem 0;
   font-size: 1.5rem;
 }
 html,
 body {
   font-family: "source-sans-pro", sans-serif;
   color: #333;
-  line-height: 1.5em;
+  line-height: 1.4em;
   text-rendering: optimizeLegibility;
   font-size: 18px;
 }
@@ -222,6 +233,7 @@ code {
   background-color: #ede;
   font-size: 0.7rem;
   color: black;
+  white-space: nowrap;
 }
 @media print {
   li {

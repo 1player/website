@@ -8,22 +8,28 @@ h1, h2, h3, h4 {
 }
 
 h1 {
-	font-size: 2.5rem;
+	font-size: 3rem;
 	margin-top: 0;
 	line-height: 1em;
+	letter-spacing: -1.2px;
+	
+	@media (max-width: @smBreak) {
+		font-size: 2.5rem;
+	}
+
 }
 
 h2 {
-	border-top: 3px solid lighten(@violet, 30%);
+	//border-top: 3px solid lighten(@violet, 30%);
 	padding-top: 0.2rem;
-	margin: 1.8rem 0 1rem 0;
+	margin: 1.5rem 0 .5rem 0;
 	font-size: 1.5rem;
 }
 
 html, body {
 	font-family: "source-sans-pro", sans-serif;
 	color: #333;
-	line-height: 1.5em;
+	line-height: 1.4em;
 	text-rendering: optimizeLegibility;
 	font-size: 18px;
 
@@ -94,4 +100,5 @@ code {
 
 	font-size: 0.7rem;
 	color: black;
+	white-space: nowrap;
 } 
