@@ -37,7 +37,7 @@ Also, make sure to create a help file for it, or the `luci` module for SQM won't
 
 This new QoS script creates a new class, with mark 4, with a maximum bandwidth of a 100th of the total upload bandwidth, as defined in the `$BL_RATE` variable, which in my case resolves to 50kbps.
 
-We need to make sure SQM is using this new configuration: open the SQM luci module, and in the `Queue Disciplice` tab select the new script, then load in the new rules.
+We need to make sure SQM is using this new configuration: open the SQM luci module, and in the `Queue Discipline` tab select the new script, then load in the new rules.
 
     /etc/init.d/sqm restart
 
