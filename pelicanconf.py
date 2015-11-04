@@ -28,6 +28,7 @@ AUTHOR_FEED_RSS = None
 
 # Blogroll
 MENUITEMS = (('Github', 'https://github.com/1player'),
+             ('Twitter', 'https://twitter.com/sphtrv'),
              ('Linkedin', 'https://uk.linkedin.com/in/stravostino'),)
 
 # Social widget
