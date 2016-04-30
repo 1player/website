@@ -24,19 +24,19 @@ def dev(port=8000):
     local(_makePelican())
     local(_makeTheme())
 
-    os.chdir(OUTPUT) 
-    server = livereload.Server() 
+    os.chdir(OUTPUT)
+    server = livereload.Server()
 
     server.watch('../content/*', _makePelican())
     server.watch('../content/pages/*', _makePelican())
+    server.watch('../content/articles/*', _makePelican())
     server.watch('../themes/combo/templates/*', _makePelican())
-    server.watch('../themes/combo/static/less/*', 
-        livereload.shell(_makeTheme()))
+    server.watch('../themes/combo/static/less/*', livereload.shell(_makeTheme()))
     server.watch('../themes/combo/static/*.css', _makePelican())
 
     server.watch('*.html')
     server.watch('*.css')
-    server.serve(liveport=35729, port=port)
+    server.serve(liveport=35729, port=port, debug=True)
 
 def push():
     put('output/*', 'public_html/')
