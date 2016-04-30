@@ -220,21 +220,25 @@ table th,
 table td {
   padding: 0.5rem;
 }
+p {
+  text-align: justify;
+  hyphens: auto;
+}
 pre {
   padding: 16px;
   margin: 0 -16px;
-  background-color: black;
+  background-color: #31204e;
   font-size: 0.7rem;
-  color: #ccc;
+  color: white;
   line-height: 1.6em;
   white-space: pre-wrap;
+  hyphens: none;
 }
 code {
   padding: 4px;
-  background-color: #ede;
+  background-color: #e7e1f2;
   font-size: 0.7rem;
-  color: black;
-  white-space: nowrap;
+  hyphens: none;
 }
 @media print {
   li {
@@ -288,15 +292,11 @@ code {
   content: " ";
   margin-bottom: 1.5rem;
 }
-.resume-experience-summary p {
-  text-indent: 10px;
-}
 .resume-experience-stack {
   font-size: 0.8rem;
   list-style-type: none;
   font-style: italic;
   padding: 0;
-  margin: 0 0 0 10px;
   line-height: 1.2rem;
 }
 .resume-experience-stack:before {

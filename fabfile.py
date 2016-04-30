@@ -31,7 +31,7 @@ def dev(port=8000):
     server.watch('../content/pages/*', _makePelican())
     server.watch('../content/articles/*', _makePelican())
     server.watch('../themes/combo/templates/*', _makePelican())
-    server.watch('../themes/combo/static/less/*', livereload.shell(_makeTheme()))
+    server.watch('../themes/combo/static/less/*', _makeTheme())
     server.watch('../themes/combo/static/*.css', _makePelican())
 
     server.watch('*.html')
