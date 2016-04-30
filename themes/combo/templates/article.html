@@ -1,5 +1,5 @@
 {% extends "base.html" %}
-{% block title %}{{ article.title }} - {{SITENAME}}{% endblock %}
+{% block title %}{{ article.title|striptags }} - {{SITENAME}}{% endblock %}
 {% block head %}
   {{ super() }}
   {% for keyword in article.keywords %}
@@ -33,7 +33,7 @@
 <script type="text/javascript">
     /* * * CONFIGURATION VARIABLES * * */
     var disqus_shortname = 'combocc';
-    
+
     /* * * DON'T EDIT BELOW THIS LINE * * */
     (function() {
         var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
