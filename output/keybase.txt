@@ -1,0 +1,55 @@
+==================================================================
+https://keybase.io/sphtrv
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://combo.cc
+  * I am sphtrv (https://keybase.io/sphtrv) on keybase.
+  * I have a public key ASAqvITafm2dQPx60sIIqsO-J4I0VbG_6VlcD1pKDcIq6wo
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "0120cd199dfe7615076525bc734a885daa28890552d9f3d96cf0fb95c6ef9a0e26060a",
+            "host": "keybase.io",
+            "kid": "01202abc84da7e6d9d40fc7ad2c208aac3be27823455b1bfe9595c0f5a4a0dc22aeb0a",
+            "uid": "061688d106911ebb6dc1d8d859308a19",
+            "username": "sphtrv"
+        },
+        "service": {
+            "hostname": "combo.cc",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "client": {
+        "name": "keybase.io go client",
+        "version": "1.0.18"
+    },
+    "ctime": 1486658660,
+    "expire_in": 504576000,
+    "merkle_root": {
+        "ctime": 1486658654,
+        "hash": "8b49c316755deef7841f40ddc9e59e54e7052b428a92d2cc967bc9f709d3ea23e9863d1393c8500ca458c167b2df085474d54e4abc1fb7f07a5923021c0c89ab",
+        "seqno": 859562
+    },
+    "prev": "80246bf7b5ecf0977bf04b37d65cc38abebdfd32cef761770548a8be693be229",
+    "seqno": 16,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgKryE2n5tnUD8etLCCKrDvieCNFWxv+lZXA9aSg3CKusKp3BheWxvYWTFAu97ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTIwY2QxOTlkZmU3NjE1MDc2NTI1YmM3MzRhODg1ZGFhMjg4OTA1NTJkOWYzZDk2Y2YwZmI5NWM2ZWY5YTBlMjYwNjBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwMmFiYzg0ZGE3ZTZkOWQ0MGZjN2FkMmMyMDhhYWMzYmUyNzgyMzQ1NWIxYmZlOTU5NWMwZjVhNGEwZGMyMmFlYjBhIiwidWlkIjoiMDYxNjg4ZDEwNjkxMWViYjZkYzFkOGQ4NTkzMDhhMTkiLCJ1c2VybmFtZSI6InNwaHRydiJ9LCJzZXJ2aWNlIjp7Imhvc3RuYW1lIjoiY29tYm8uY2MiLCJwcm90b2NvbCI6Imh0dHBzOiJ9LCJ0eXBlIjoid2ViX3NlcnZpY2VfYmluZGluZyIsInZlcnNpb24iOjF9LCJjbGllbnQiOnsibmFtZSI6ImtleWJhc2UuaW8gZ28gY2xpZW50IiwidmVyc2lvbiI6IjEuMC4xOCJ9LCJjdGltZSI6MTQ4NjY1ODY2MCwiZXhwaXJlX2luIjo1MDQ1NzYwMDAsIm1lcmtsZV9yb290Ijp7ImN0aW1lIjoxNDg2NjU4NjU0LCJoYXNoIjoiOGI0OWMzMTY3NTVkZWVmNzg0MWY0MGRkYzllNTllNTRlNzA1MmI0MjhhOTJkMmNjOTY3YmM5ZjcwOWQzZWEyM2U5ODYzZDEzOTNjODUwMGNhNDU4YzE2N2IyZGYwODU0NzRkNTRlNGFiYzFmYjdmMDdhNTkyMzAyMWMwYzg5YWIiLCJzZXFubyI6ODU5NTYyfSwicHJldiI6IjgwMjQ2YmY3YjVlY2YwOTc3YmYwNGIzN2Q2NWNjMzhhYmViZGZkMzJjZWY3NjE3NzA1NDhhOGJlNjkzYmUyMjkiLCJzZXFubyI6MTYsInRhZyI6InNpZ25hdHVyZSJ9o3NpZ8RA4BdldyG30mlMI+9I7OeP0zLyMX5GA3XvDDH2l4t6hRrhZKg/P2/SClCyUp0azxA9mpo6nPkHeXAVwQWk9TD4CahzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIHQhLZ9524hX3UxmwCRuBDKNR9Ctlbavu2J504Woa089o3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/sphtrv
+
+==================================================================
+
